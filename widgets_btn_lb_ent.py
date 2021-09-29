@@ -13,8 +13,8 @@ from tkinter import *
 #     btn['fg'] = '#ffffff'
 #     btn['activeforeground'] = '#ffffff'
 
-def take():
-    lab3['text'] = "Выдано"
+# def take():
+#     lab3['text'] = "Выдано"
 
 
 root = Tk()
@@ -34,14 +34,20 @@ root.title("Widgets")
 # lab2.config(bd=20, bg='#aaffff')
 
 # Label без переменной
-Label(text="Пункт выдачи").pack()
-Button(text="Взять", command=take).pack()
-
-lab3 = Label(width=10, height=1)
-lab3.pack()
+# Label(text="Пункт выдачи").pack()
+# Button(text="Взять", command=take).pack()
+#
+# lab3 = Label(width=10, height=1)
+# lab3.pack()
 
 
 # lab1.pack()
 # lab2.pack()
+
+# Entry - однострочное текстовое поле
+
+
+
+
 
 root.mainloop()
