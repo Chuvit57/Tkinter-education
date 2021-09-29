@@ -14,8 +14,9 @@ root.title("method pack()")
 # f_bot = Frame(root)
 
 # Расположение фрейм с подписью
-f_top = LabelFrame(text="Верх")
+f_top = LabelFrame(text="Верх", padx=10, pady=10) # внешние отступы
 f_bot = LabelFrame(text="Низ")
+
 
 lab1 = Label(f_top, width=17, height=8, bg="yellow", text="1", font=16, fg="black")
 lab2 = Label(f_top, width=17, height=8, bg="orange", text="2", font=16, fg="white")
@@ -43,7 +44,7 @@ lab4 = Label(f_bot, width=17, height=8, bg="blue", text="4", font=16, fg="white"
 
 # Расположение во фреймах
 f_top.pack()
-f_bot.pack()
+f_bot.pack(ipadx=10, ipady=10) # Внутренние отступы
 lab1.pack(side=LEFT)
 lab2.pack(side=LEFT)
 lab3.pack(side=LEFT)
