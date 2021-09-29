@@ -4,7 +4,6 @@
 from tkinter import *
 from datetime import datetime as dt
 
-
 # Button
 
 # def change():
@@ -57,7 +56,15 @@ root.title("Widgets")
 """
 
 
-
-
+# def insert_time():
+#     t = dt.now().time()
+#     ent.insert(END, t.strftime('%H:%M:%S '))
+#
+#
+# ent = Entry(width=50)
+# ent['justify'] = 'center'
+# btn = Button(text="Время", command=insert_time)
+# ent.pack()
+# btn.pack()
 
 root.mainloop()
