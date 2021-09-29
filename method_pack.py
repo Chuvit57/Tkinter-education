@@ -21,10 +21,17 @@ lab4 = Label(width=17, height=8, bg="blue", text="4", font=16, fg="white")
 # lab4.pack()
 
 # Расположение снизу
-lab1.pack(side=BOTTOM)
-lab2.pack(side=BOTTOM)
-lab3.pack(side=BOTTOM)
-lab4.pack(side=BOTTOM)
+# lab1.pack(side=BOTTOM)
+# lab2.pack(side=BOTTOM)
+# lab3.pack(side=BOTTOM)
+# lab4.pack(side=BOTTOM)
+
+# Расположение слева по центру
+
+lab1.pack(side=LEFT)
+lab2.pack(side=LEFT)
+lab3.pack(side=LEFT)
+lab4.pack(side=LEFT)
 
 
 root.mainloop()
