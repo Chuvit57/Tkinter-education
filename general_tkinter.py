@@ -11,9 +11,9 @@ from tkinter import *
 #     lab['text'] = ' '.join(s)
 
 
-root = Tk()
-root.geometry("800x500+1000+300")
-root.title("Tkinter начало")
+# root = Tk()
+# root.geometry("800x500+1000+300")
+# root.title("Tkinter начало")
 
 # ent = Entry(root, width=20)
 # btn = Button(root, text="Преобразовать")
@@ -26,7 +26,35 @@ root.title("Tkinter начало")
 
 # Этот же пример через ООП
 
-
-
-
-root.mainloop()
+# class Block:
+#     def __init__(self, master, func):
+#         self.ent = Entry(master, width=20)
+#         self.btn = Button(master, text="Преобразовать")
+#         self.lab = Label(master, width=20, bg='#000', fg='white')
+#         self.btn['command'] = getattr(self, func)
+#         self.ent.pack()
+#         self.btn.pack()
+#         self.lab.pack()
+#
+#     def str_to_sort(self):
+#         s = self.ent.get()
+#         s = s.split()
+#         s.sort()
+#         self.lab['text'] = ' '.join(s)
+#
+#     def str_reverse(self):
+#         s = self.ent.get()
+#         s = s.split()
+#         s.reverse()
+#         self.lab['text'] = ' '.join(s)
+#
+#
+# root = Tk()
+#
+# root.geometry("800x500+1000+300")
+# root.title("Tkinter начало")
+#
+# first_block = Block(root, 'str_to_sort')
+# second_block = Block(root, 'str_reverse')
+#
+# root.mainloop()
