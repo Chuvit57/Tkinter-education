@@ -10,8 +10,12 @@ root = Tk()
 root.title("method pack()")
 
 # Расположение во фреймах
-f_top = Frame(root)
-f_bot = Frame(root)
+# f_top = Frame(root)
+# f_bot = Frame(root)
+
+# Расположение фрейм с подписью
+f_top = LabelFrame(text="Верх")
+f_bot = LabelFrame(text="Низ")
 
 lab1 = Label(f_top, width=17, height=8, bg="yellow", text="1", font=16, fg="black")
 lab2 = Label(f_top, width=17, height=8, bg="orange", text="2", font=16, fg="white")
@@ -44,7 +48,5 @@ lab1.pack(side=LEFT)
 lab2.pack(side=LEFT)
 lab3.pack(side=LEFT)
 lab4.pack(side=LEFT)
-
-
 
 root.mainloop()
