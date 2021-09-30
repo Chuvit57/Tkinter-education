@@ -59,4 +59,9 @@ root.geometry("700x400+800+400")
 # lab1.pack(expand=1, fill=Y) # По середине, заполнение по у
 # lab1.pack(expand=1, fill=BOTH) # Полностью весь лист залит
 
+#Свойство anchor-якорь(N-север, S-юг, W-запад, E-восток)
+lab1 = Label(text="This is a label", width=30, height=10, bg="lightgreen")
+
+lab1.pack(expand=1, anchor=SE)
+
 root.mainloop()
