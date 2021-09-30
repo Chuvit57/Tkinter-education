@@ -61,6 +61,14 @@ Text - это многострочное текстовое поле.
 # Example 3
 # Тэги придают оформление: tag_add and tag_config
 root = Tk()
+root.geometry("500x300+500+300")
+root.title("Проверка")
+
+Label(text="Привет мир", width=30, height=10)
+Label.pack()
+
+print(root.geometry)
+
 
 
 
