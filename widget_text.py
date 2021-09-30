@@ -64,10 +64,10 @@ root = Tk()
 root.geometry("500x300+500+300")
 root.title("Проверка")
 
-Label(text="Привет мир", width=30, height=10)
-Label.pack()
+Label(root, text="Привет мир", width=30, height=10).pack()
 
-print(root.geometry)
+
+
 
 
 
